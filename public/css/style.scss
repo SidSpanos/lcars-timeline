@@ -1,0 +1,59 @@
+// LCARS Theme Colors
+$lcars-orange: #ff9900;
+$lcars-purple: #cc99cc;
+$lcars-blue: #9999ff;
+$lcars-bg: #000000;
+$lcars-text: #ffffff;
+
+// Reset and Base Styles
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $lcars-bg;
+    color: $lcars-text;
+    font-family: 'Arial', sans-serif;
+    min-height: 100vh;
+}
+
+// LCARS Layout
+.lcars-layout {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.lcars-section {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 1rem;
+    padding: 1rem;
+    border: 2px solid $lcars-orange;
+}
+
+.lcars-header {
+    h1 {
+        color: $lcars-orange;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+    }
+}
+
+// Timeline Styles
+.timeline-container {
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+// Info Panel Styles
+.info-container {
+    min-height: 100px;
+    padding: 1rem;
+    color: $lcars-purple;
+} 

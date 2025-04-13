@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Arial", sans-serif;
+  min-height: 100vh;
+}
+
+.lcars-layout {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.lcars-section {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 1rem;
+  padding: 1rem;
+  border: 2px solid #ff9900;
+}
+
+.lcars-header h1 {
+  color: #ff9900;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.timeline-container {
+  min-height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-container {
+  min-height: 100px;
+  padding: 1rem;
+  color: #cc99cc;
+}
+
+/*# sourceMappingURL=style.css.map */
