@@ -36,6 +36,9 @@ logs/
 public/css/style.css
 public/css/style.css.map 
 
+# Local development scripts
+*.bat
+
 # holdback
 please-help.md
 stack.md
