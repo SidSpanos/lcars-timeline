@@ -35,3 +35,9 @@ logs/
 # Compiled CSS
 public/css/style.css
 public/css/style.css.map 
+
+# holdback
+please-help.md
+start-dev.bat
+stop-dev.bat
+stack.md
